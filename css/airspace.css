@@ -262,7 +262,7 @@ font header .navbar-default .navbar-nav li a:hover {
   margin-bottom: 20px;
 }
 #feature .btn-view-works {
-  background: #655E7A;
+  background: #002E5D;
   color: #fff;
   padding: 10px 20px;
 }
@@ -425,7 +425,7 @@ font header .navbar-default .navbar-nav li a:hover {
   position: relative;
 }
 #portfolio-work .block .portfolio-menu ul .active {
-  color: #655E7A;
+  color: #002E5D;
   position: relative;
 }
 #portfolio-work .block .portfolio-menu ul .active:before {
@@ -499,7 +499,7 @@ font header .navbar-default .navbar-nav li a:hover {
 #portfolio-work .block .portfolio-contant ul li a span {
   font-style: italic;
   font-size: 13px;
-  color: #655E7A;
+  color: #002E5D;
 }
 #portfolio-work .block .portfolio-contant ul img {
   width: 100%;
