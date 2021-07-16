@@ -151,16 +151,16 @@ font header .navbar-default .navbar-nav li a:hover {
     color: #a2e3a2;
 } */
 
-#slider .btn-wow:hover,
-.btn-wow:focus {
-    animation: wow 1s;
+#slider .btn-slider:hover,
+.btn-slider:focus {
+    animation: slider 1s;
     box-shadow: 0 0.5em 0.5em -0.4em white, 0 0 0 2em rgba(white,0);
     color:#002E5D;
     background-color:#a2e3a2;
 
   }
 
-@keyframes wow {
+@keyframes slider {
     0% { box-shadow: 0 0 0 0 rgba(#a2e3a2,1); }
     100% { box-shadow: 0 0 0 2em rgba(white,0), 0 0.5em 0.5em -0.4em white;
     border-color:#002E5D;
