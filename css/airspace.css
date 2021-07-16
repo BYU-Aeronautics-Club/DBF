@@ -139,10 +139,11 @@ font header .navbar-default .navbar-nav li a:hover {
     padding: 25px 45px;
     border-color:#002E5D;
     border-radius: 8px;
-    border-width:medium;
+    border-width: medium;
     background-color: #fff;
     font-size: 25px;
     color: #002E5D;
+    font-weight: bold;
     margin-top: 25px;
   }
 /* #slider .btn-slider:hover{
