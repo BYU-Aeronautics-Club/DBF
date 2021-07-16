@@ -150,8 +150,9 @@ font header .navbar-default .navbar-nav li a:hover {
     background-color: #002E5D;
     color: #a2e3a2;
 } */
-#slider .btn-slider:hover,
-.btn-slider:focus {
+
+.btn-pulse:hover,
+.btn-pulse:focus {
     animation: pulse 1s;
     box-shadow: 0 0.5em 0.5em -0.4em white, 0 0 0 2em rgba(white,0);
     color:#002E5D;
