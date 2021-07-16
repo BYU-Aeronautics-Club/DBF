@@ -88,7 +88,8 @@ header .navbar-default .navbar-nav li a {
   font-size: 20px;
 }
 font header .navbar-default .navbar-nav li a:hover {
-  color: #a2e3a2;
+    background-color: #a2e3a2;
+    color: #002E5D;
 }
 /*---------------------------------------------
 					Index Start
