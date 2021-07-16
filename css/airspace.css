@@ -150,7 +150,7 @@ button {
     margin-top: 25px;
 }
 
-// Animate the size, outside
+
 .apply:hover,
 .apply:focus {
     animation: wow 0.5s;
