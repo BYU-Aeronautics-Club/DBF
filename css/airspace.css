@@ -143,9 +143,18 @@ font header .navbar-default .navbar-nav li a:hover {
     color: #002E5D;
     margin-top: 25px;
   }
-#slider .btn-slider:hover{
+/* #slider .btn-slider:hover{
     background-color: #002E5D;
     color: #a2e3a2;
+} */
+#slider .btn-slider:hover,
+.btn-slider:focus {
+  box-shadow: 0 0.5em 0.5em -0.4em white;
+  transform: translateY(-0.25em);
+  transition: 0.25s;
+  color: #002E5D;
+  border-color:none;
+  background-color: #a2e3a2;
 }
 /*--
 	wrapper Start
