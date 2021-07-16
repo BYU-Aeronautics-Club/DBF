@@ -136,7 +136,7 @@ font header .navbar-default .navbar-nav li a:hover {
   letter-spacing: 3px;
 }
 
-button {
+mybutton {
     transition: 0.25s;
     padding: 25px 45px;
     border: solid;
