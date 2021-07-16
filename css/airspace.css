@@ -149,6 +149,7 @@ font header .navbar-default .navbar-nav li a:hover {
 } */
 #slider .btn-slider:hover,
 .btn-slider:focus {
+  animation: pulse 1s;
   box-shadow: 0 0.5em 0.5em -0.4em white;
   transform: translateY(-0.25em);
   transition: 0.25s;
@@ -156,6 +157,11 @@ font header .navbar-default .navbar-nav li a:hover {
   border-color:none;
   background-color: #a2e3a2;
 }
+
+@keyframes btn-slider {
+    0% { box-shadow: 0 0 0 0 #a2e3a2; }
+    100% { box-shadow: 0 0 0 2em rgba(white,0); }
+  }
 /*--
 	wrapper Start
 --*/
