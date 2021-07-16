@@ -135,7 +135,8 @@ font header .navbar-default .navbar-nav li a:hover {
   font-weight: 300;
   letter-spacing: 3px;
 }
-#slider .btn-wow {
+
+.btn-wow {
     padding: 25px 45px;
     border-color:#002E5D;
     border-radius: 8px;
@@ -151,16 +152,16 @@ font header .navbar-default .navbar-nav li a:hover {
     color: #a2e3a2;
 } */
 
-#slider .btn-slider:hover,
-.btn-slider:focus {
-    animation: slider 1s;
+.btn-wow:hover,
+.btn-wow:focus {
+    animation: wow 1s;
     box-shadow: 0 0.5em 0.5em -0.4em white, 0 0 0 2em rgba(white,0);
     color:#002E5D;
     background-color:#a2e3a2;
 
   }
 
-@keyframes slider {
+@keyframes wow {
     0% { box-shadow: 0 0 0 0 rgba(#a2e3a2,1); }
     100% { box-shadow: 0 0 0 2em rgba(white,0), 0 0.5em 0.5em -0.4em white;
     border-color:#002E5D;
