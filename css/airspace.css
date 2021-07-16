@@ -136,9 +136,10 @@ font header .navbar-default .navbar-nav li a:hover {
   letter-spacing: 3px;
 }
 
-.btn-wow {
+button {
     transition: 0.25s;
     padding: 25px 45px;
+    border: solid;
     border-color:#002E5D;
     border-radius: 8px;
     border-width: medium;
@@ -147,18 +148,16 @@ font header .navbar-default .navbar-nav li a:hover {
     color: #002E5D;
     font-weight: bold;
     margin-top: 25px;
-  }
-/* #slider .btn-slider:hover{
-    background-color: #002E5D;
-    color: #a2e3a2;
-} */
+}
 
-.btn-wow:hover,
-.btn-wow:focus {
-    animation: wow 1s;
+// Animate the size, outside
+.apply:hover,
+.apply:focus {
+    animation: wow 0.5s;
     box-shadow: 0 0.5em 0.5em -0.4em white, 0 0 0 2em rgba(white,0);
     color:#002E5D;
     background-color:#a2e3a2;
+  border-width:medium;
 
   }
 
