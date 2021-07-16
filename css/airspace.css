@@ -819,7 +819,6 @@ footer .footer-manu ul li a:hover {
   color: #000;
 }
 
-::-moz-selection,
 ::selection{
     color: white;
     background: #0062B8;
