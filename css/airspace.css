@@ -151,9 +151,10 @@ font header .navbar-default .navbar-nav li a:hover {
 .btn-slider:focus {
   box-shadow:none;
   color: #002E5D;
-  border-color:none;
+  border-color:#002E5D;
   transform: scale(1);
   animation: pulse 1s;
+  transition: 1s;
   box-shadow: 0 0.5em 0.5em -0.4em white;
   color: #002E5D;
   border-color:#002E5D;
