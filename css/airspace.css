@@ -153,7 +153,7 @@ font header .navbar-default .navbar-nav li a:hover {
     color: #a2e3a2;
 } */
 
-.btn-wow:hover,
+/* .btn-wow:hover,
 .btn-wow:focus {
     animation: wow 1s;
     box-shadow: 0 0.5em 0.5em -0.4em white, 0 0 0 2em rgba(white,0);
@@ -195,7 +195,7 @@ font header .navbar-default .navbar-nav li a:hover {
     100% { box-shadow: 0 0 0 2em rgba(white,0), 0 0.5em 0.5em -0.4em white;
     border-color:#002E5D;
     border-width:medium; }
-}
+} */
 /*--
 	wrapper Start
 --*/
