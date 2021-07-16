@@ -154,7 +154,7 @@ font header .navbar-default .navbar-nav li a:hover {
   transform: translateY(-0.25em);
   transition: 0.25s;
   color: #002E5D;
-  border-color:none;
+  border-color:#002E5D;
   background-color: #a2e3a2;
 }
 
