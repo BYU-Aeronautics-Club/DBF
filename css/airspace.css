@@ -149,14 +149,25 @@ font header .navbar-default .navbar-nav li a:hover {
 } */
 #slider .btn-slider:hover,
 .btn-slider:focus {
+  box-shadow:none;
+  color: #002E5D;
+  border-color:none;
+  transform: scale(1);
   animation: pulse 1s;
+  box-shadow: 0 0.5em 0.5em -0.4em white;
+  color: #002E5D;
+  border-color:#002E5D;
+  background-color: #a2e3a2;
 }
 @keyframes pulse {
-    0% { box-shadow: 0 0 0 0 #a2e3a2; }
-    99% { box-shadow: 0 0 0 2em rgba(white,0);
-            color: #002E5D;
-            border-color:#002E5D;}
-    100% { box-shadow: 0 0.5em 0.5em -0.4em white;
+    0% { transform: scale(0.95);
+        box-shadow: 0 0 0 0 #a2e3a2; }
+    70% { transform: scale(1);
+        box-shadow: 0 0 0 2em rgba(white,0);
+        color: #002E5D;
+        border-color:#002E5D;}
+    100% { transform: scale(0.95);
+            box-shadow: 0 0.5em 0.5em -0.4em white;
             color: #002E5D;
             border-color:#002E5D;
             background-color: #a2e3a2; }
