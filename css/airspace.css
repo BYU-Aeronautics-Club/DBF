@@ -151,7 +151,7 @@ font header .navbar-default .navbar-nav li a:hover {
 }
 
 
-:hover,
+.apply:hover,
 .apply:focus {
     animation: wow 0.5s;
     box-shadow: 0 0.5em 0.5em -0.4em white, 0 0 0 2em rgba(white,0);
