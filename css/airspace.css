@@ -135,6 +135,14 @@ font header .navbar-default .navbar-nav li a:hover {
   font-weight: 300;
   letter-spacing: 3px;
 }
+#slider .btn-slider {
+    padding: 25px 45px;
+    border: none;
+    background-color: #fff;
+    font-size: 25px;
+    color: #002E5D;
+    margin-top: 40px;
+  }
 /*--
 	wrapper Start
 --*/
