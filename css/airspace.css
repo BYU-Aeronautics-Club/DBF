@@ -139,6 +139,7 @@ font header .navbar-default .navbar-nav li a:hover {
 .btn-wow {
     transition: 0.25s;
     padding: 25px 45px;
+    border-style: solid;
     border-color:#002E5D;
     border-radius: 8px;
     border-width: medium;
