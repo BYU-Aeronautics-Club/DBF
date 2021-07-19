@@ -146,8 +146,6 @@ font header .navbar-default .navbar-nav li a:hover {
     margin-top: 30px;
   }
 #slider .btn-wow:hover {
-    animation: wow 1s;
-    box-shadow: 0 0.5em 0.5em -0.4em white, 0 0 0 2em rgba(white,0);
     transition: 1s;
     padding: 25px 45px;
     border-style: flat;
@@ -159,7 +157,7 @@ font header .navbar-default .navbar-nav li a:hover {
     font-weight: bold;
     margin-top: 30px;
 }
-#slider .btn-wow:focus {
+/* #slider .btn-wow:focus {
     animation: wow 1s;
     box-shadow: 0 0.5em 0.5em -0.4em white, 0 0 0 2em rgba(white,0);
     padding: 25px 45px;
@@ -206,7 +204,7 @@ font header .navbar-default .navbar-nav li a:hover {
     100% { box-shadow: 0 0 0 2em rgba(white,0), 0 0.5em 0.5em -0.4em white;
     border-color:#002E5D;
     border-width:medium; }
-}
+} */
 
 /* .btn-wow:hover,
 .btn-wow:focus {
