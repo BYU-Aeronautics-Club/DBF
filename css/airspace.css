@@ -146,7 +146,7 @@ font header .navbar-default .navbar-nav li a:hover {
     margin-top: 30px;
   }
 #slider .btn-wow:hover {
-    transition: 1s;
+    transition: 0.5s;
     padding: 25px 45px;
     border-style: flat;
     border-color: #002E5D;
@@ -170,41 +170,6 @@ font header .navbar-default .navbar-nav li a:hover {
     font-weight: bold;
     margin-top: 30px;
 }
-
-@keyframes wow {
-    0% { box-shadow: 0 0 0 0 rgba(#a2e3a2,1); }
-    100% { box-shadow: 0 0 0 2em rgba(white,0), 0 0.5em 0.5em -0.4em white;
-    border-color:#002E5D;
-    border-width:medium; }
-}
-
-@-moz-keyframes wow {
-    0% { box-shadow: 0 0 0 0 rgba(#a2e3a2,1); }
-    100% { box-shadow: 0 0 0 2em rgba(white,0), 0 0.5em 0.5em -0.4em white;
-    border-color:#002E5D;
-    border-width:medium; }
-}
-
-@-webkit-keyframes wow {
-    0% { box-shadow: 0 0 0 0 rgba(#a2e3a2,1); }
-    100% { box-shadow: 0 0 0 2em rgba(white,0), 0 0.5em 0.5em -0.4em white;
-    border-color:#002E5D;
-    border-width:medium; }
-}
-
-@-o-keyframes wow {
-    0% { box-shadow: 0 0 0 0 rgba(#a2e3a2,1); }
-    100% { box-shadow: 0 0 0 2em rgba(white,0), 0 0.5em 0.5em -0.4em white;
-    border-color:#002E5D;
-    border-width:medium; }
-}
-
-@-ms-keyframes wow {
-    0% { box-shadow: 0 0 0 0 rgba(#a2e3a2,1); }
-    100% { box-shadow: 0 0 0 2em rgba(white,0), 0 0.5em 0.5em -0.4em white;
-    border-color:#002E5D;
-    border-width:medium; }
-} */
 
 /* .btn-wow:hover,
 .btn-wow:focus {
@@ -344,7 +309,7 @@ font header .navbar-default .navbar-nav li a:hover {
 }
 
 #call-to-action .btn-call-to-action:hover {
-    transition: 1s;
+    transition: 0.5s;
     padding: 15px 35px;
     border-style: flat;
     border-color: #002E5D;
@@ -352,10 +317,11 @@ font header .navbar-default .navbar-nav li a:hover {
     font-size: 15px;
     color: #002E5D;
     margin-top: 30px;
+    animation: wow 1s;
   }
 
   #call-to-action .btn-call-to-action:focus {
-    transition: 1s;
+    transition: 0.5s;
     padding: 15px 35px;
     border-style: flat;
     border-color: white;
@@ -363,7 +329,43 @@ font header .navbar-default .navbar-nav li a:hover {
     font-size: 15px;
     color: #002E5D;
     margin-top: 30px;
+    animation: wow 1s;
   }
+
+  @keyframes wow {
+    0% { box-shadow: 0 0 0 0 rgba(#a2e3a2,1); }
+    100% { box-shadow: 0 0 0 2em rgba(white,0), 0 0.5em 0.5em -0.4em white;
+    border-color:#002E5D;
+    border-width:medium; }
+}
+
+@-moz-keyframes wow {
+    0% { box-shadow: 0 0 0 0 rgba(#a2e3a2,1); }
+    100% { box-shadow: 0 0 0 2em rgba(white,0), 0 0.5em 0.5em -0.4em white;
+    border-color:#002E5D;
+    border-width:medium; }
+}
+
+@-webkit-keyframes wow {
+    0% { box-shadow: 0 0 0 0 rgba(#a2e3a2,1); }
+    100% { box-shadow: 0 0 0 2em rgba(white,0), 0 0.5em 0.5em -0.4em white;
+    border-color:#002E5D;
+    border-width:medium; }
+}
+
+@-o-keyframes wow {
+    0% { box-shadow: 0 0 0 0 rgba(#a2e3a2,1); }
+    100% { box-shadow: 0 0 0 2em rgba(white,0), 0 0.5em 0.5em -0.4em white;
+    border-color:#002E5D;
+    border-width:medium; }
+}
+
+@-ms-keyframes wow {
+    0% { box-shadow: 0 0 0 0 rgba(#a2e3a2,1); }
+    100% { box-shadow: 0 0 0 2em rgba(white,0), 0 0.5em 0.5em -0.4em white;
+    border-color:#002E5D;
+    border-width:medium; }
+}
 /*--
 	Feature Start
 --*/
