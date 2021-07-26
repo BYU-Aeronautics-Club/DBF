@@ -334,9 +334,9 @@ font header .navbar-default .navbar-nav li a:hover {
 	Feature Start
 --*/
 #feature {
-  background: url("../img/austin.jpg");
-  /* background: linear-gradient(to left, #0062B8, white 50%); */
-  opacity: 0.50;
+  /* background: url("../img/austin.jpg"); */
+  background: linear-gradient(to right, url("../img/austin.jpg"), white 50%);
+  /* opacity: 0.7; */
   background-position: 50% 94px;
   width: 100%;
   display: block;
