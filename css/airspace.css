@@ -334,7 +334,9 @@ font header .navbar-default .navbar-nav li a:hover {
 	Feature Start
 --*/
 #feature {
-  background: url("../img/featue-bg.jpg");
+  background: url("../img/austin.jpg");
+  background: linear-gradient(to left, #0062B8, white 50%);
+  opacity: 0.50;
   background-position: 50% 94px;
   width: 100%;
   display: block;
@@ -343,7 +345,7 @@ font header .navbar-default .navbar-nav li a:hover {
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center center;
-  background-color: #fff;
+  /* background-color: #fff; */
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
