@@ -335,7 +335,7 @@ font header .navbar-default .navbar-nav li a:hover {
 --*/
 #feature {
   background: url("../img/austin.jpg");
-  background: linear-gradient(to left, #0062B8, white 50%);
+  /* background: linear-gradient(to left, #0062B8, white 50%); */
   opacity: 0.50;
   background-position: 50% 94px;
   width: 100%;
