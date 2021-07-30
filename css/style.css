@@ -21,14 +21,16 @@
   width: 100%;
   min-height: 150px;
   background-color: white;
+  color: #333;
   border-bottom: 1px dotted #ddd;
 }
 
 .post-area a:link, .post-area a:visited {
   font-size: 30px;
-  color: #333;
+  color: #002E5D;
 }
 
 .post-area a:hover {
-  color: #0D0017;
+  color: #a2e3a2;
+  background-color: #002E5D;
 }
