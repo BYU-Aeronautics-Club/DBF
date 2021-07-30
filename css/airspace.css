@@ -915,3 +915,9 @@ footer .footer-manu ul li a:hover {
     color: white;
     background: #0062B8;
   }
+
+
+/* table padding */
+th, td {
+    padding: 20px;
+  }
