@@ -34,3 +34,10 @@
   color: #a2e3a2;
   /* background-color: #002E5D; */
 }
+
+
+/* table settings */
+th, td {
+    padding: 20px;
+    border-color:#333;
+  }
