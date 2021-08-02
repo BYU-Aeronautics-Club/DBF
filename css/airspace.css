@@ -616,11 +616,11 @@ font header .navbar-default .navbar-nav li a:hover {
   bottom: 0;
   right: 0;
   left: 0;
-  background: #002f5da5;
-  opacity: 1.0;
-  /* -webkit-transition: .3s all;
+  background: rgba(0, 0, 0, 0.9);
+  opacity: 1;
+  -webkit-transition: .3s all;
   -o-transition: .3s all;
-  transition: .3s all; */
+  transition: .3s all;
   text-align: center;
 }
 #portfolio-work .block .portfolio-contant .position-center {
