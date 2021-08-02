@@ -603,11 +603,6 @@ font header .navbar-default .navbar-nav li a:hover {
 }
 #portfolio-work .block .portfolio-contant ul li a p {
   font-size: 15px;
-  color: rgba(0, 46, 93, 0.0);
-}
-#portfolio-work .block .portfolio-contant ul li a p:hover {
-  font-size: 15px;
-  color: #002E5D
 }
 #portfolio-work .block .portfolio-contant ul li a span {
   font-style: italic;
