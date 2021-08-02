@@ -589,7 +589,8 @@ font header .navbar-default .navbar-nav li a:hover {
   -ms-transform: translate(0%, -50%);
   transform: translate(0%, -50%);
   color: #002E5D;
-  background-color:rgba(255,255,255,0.25); border-radius: 5px;
+  background-color:rgba(255,255,255,0.75); border-radius: 5px;
+  padding: 10px;
 }
 #portfolio-work .block .portfolio-contant ul li a {
   display: block;
@@ -602,6 +603,11 @@ font header .navbar-default .navbar-nav li a:hover {
 }
 #portfolio-work .block .portfolio-contant ul li a p {
   font-size: 15px;
+  color: rgba(0, 46, 93, 0.0);
+}
+#portfolio-work .block .portfolio-contant ul li a p:hover {
+  font-size: 15px;
+  color: #002E5D
 }
 #portfolio-work .block .portfolio-contant ul li a span {
   font-style: italic;
@@ -618,7 +624,7 @@ font header .navbar-default .navbar-nav li a:hover {
   bottom: 0;
   right: 0;
   left: 0;
-  background: #002E5D;
+  background: rgba(0, 46, 93, 0.85);
   opacity: 1;
   -webkit-transition: .3s all;
   -o-transition: .3s all;
