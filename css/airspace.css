@@ -613,6 +613,7 @@ font header .navbar-default .navbar-nav li a:hover {
 .static {
   width: 100%;
   height: auto;
+  position: absolute;
 }
 .static:hover {
   opacity:0;
