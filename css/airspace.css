@@ -610,6 +610,11 @@ font header .navbar-default .navbar-nav li a:hover {
   width: 100%;
   height: auto;
 }
+#portfolio-work .block .portfolio-contant ul img:hover {
+  width: 100%;
+  height: auto;
+  opacity: 0;
+}
 #portfolio-work .block .portfolio-contant .overly {
   position: absolute;
   top: 0;
