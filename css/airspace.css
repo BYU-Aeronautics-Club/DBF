@@ -588,6 +588,8 @@ font header .navbar-default .navbar-nav li a:hover {
   -moz-transform: translate(0%, -50%);
   -ms-transform: translate(0%, -50%);
   transform: translate(0%, -50%);
+  color: #002E5D;
+  background-color:rgba(255,255,255,0.25); border-radius: 5px;
 }
 #portfolio-work .block .portfolio-contant ul li a {
   display: block;
@@ -617,7 +619,7 @@ font header .navbar-default .navbar-nav li a:hover {
   right: 0;
   left: 0;
   background: #002E5D;
-  opacity: 0.9;
+  opacity: 1;
   -webkit-transition: .3s all;
   -o-transition: .3s all;
   transition: .3s all;
