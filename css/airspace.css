@@ -579,7 +579,7 @@ font header .navbar-default .navbar-nav li a:hover {
   position: relative;
 }
 #portfolio-work .block .portfolio-contant ul li:hover .overly {
-  opacity: 0;
+  background-color: rgba(0, 46, 93, 0.0);
 }
 #portfolio-work .block .portfolio-contant ul li:hover .position-center {
   position: absolute;
