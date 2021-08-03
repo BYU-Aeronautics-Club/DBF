@@ -582,6 +582,8 @@ font header .navbar-default .navbar-nav li a:hover {
   background-color: rgba(0, 46, 93, 0.0);
 }
 #portfolio-work .block .portfolio-contant ul li:hover .position-center {
+  margin: auto;
+  text-align: center;
   position: absolute;
   top: 50%;
   /* left: 10%; */
@@ -628,6 +630,8 @@ font header .navbar-default .navbar-nav li a:hover {
   text-align: center;
 }
 #portfolio-work .block .portfolio-contant .position-center {
+  margin: auto;
+  text-align: center;
   position: absolute;
   top: 50%;
   /* left: 10%; */
