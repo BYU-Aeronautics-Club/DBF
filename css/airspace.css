@@ -584,10 +584,10 @@ font header .navbar-default .navbar-nav li a:hover {
 #portfolio-work .block .portfolio-contant ul li:hover .position-center {
   position: absolute;
   top: 50%;
-  -webkit-transform: translate(0%, -50%);
-  -moz-transform: translate(0%, -50%);
-  -ms-transform: translate(0%, -50%);
-  transform: translate(0%, -50%);
+  -webkit-transform: translate(0%, 50%);
+  -moz-transform: translate(0%, 50%);
+  -ms-transform: translate(0%, 50%);
+  transform: translate(0%, 50%);
   color: #002E5D;
   background-color:rgba(255,255,255,0.75); border-radius: 5px;
   padding: 10px;
@@ -631,10 +631,10 @@ font header .navbar-default .navbar-nav li a:hover {
   top: 50%;
   left: 10%;
   color: white;
-  -webkit-transform: translate(0%, 50%);
-  -moz-transform: translate(0%, 50%);
-  -ms-transform: translate(0%, 50%);
-  transform: translate(0%, 50%);
+  -webkit-transform: translate(0%, -50%);
+  -moz-transform: translate(0%, -50%);
+  -ms-transform: translate(0%, -50%);
+  transform: translate(0%, -50%);
   -webkit-transition: .5s all;
   -o-transition: .5s all;
   transition: .5s all;
