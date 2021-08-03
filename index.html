@@ -16,6 +16,11 @@ permalink: /
     </button>
   </div>
 </div>
+<script>
+  document.querySelector(".banner__close").addEventListener("click", function () {
+  this.closest(".banner").style.display = "none";
+});
+</script>
 
 <!-- Slider Start -->
 <section id="slider">
