@@ -636,10 +636,10 @@ font header .navbar-default .navbar-nav li a:hover {
   left: 50%;
   margin-right: -50%;
   color: white;
-  -webkit-transform: translate(-50%, -50%);
-  -moz-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, 0%);
+  -moz-transform: translate(-50%, 0%);
+  -ms-transform: translate(-50%, 0%);
+  transform: translate(-50%, 0%);
   -webkit-transition: .5s all;
   -o-transition: .5s all;
   transition: .5s all;
