@@ -587,10 +587,10 @@ font header .navbar-default .navbar-nav li a:hover {
   bottom: 0%;
   left: 50%;
   margin-right: -50%;
-  -webkit-transform: translate(-50%, 42%);
-  -moz-transform: translate(-50%, 42%);
-  -ms-transform: translate(-50%, 42%);
-  transform: translate(-50%, 42%);
+  -webkit-transform: translate(-50%, 0%);
+  -moz-transform: translate(-50%, 0%);
+  -ms-transform: translate(-50%, 0%);
+  transform: translate(-50%, 0%);
   color: #002E5D;
   background-color:rgba(255,255,255,0.75); border-radius: 5px;
   /* padding: 5px; */
