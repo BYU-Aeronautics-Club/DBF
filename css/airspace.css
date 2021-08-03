@@ -593,7 +593,7 @@ font header .navbar-default .navbar-nav li a:hover {
   transform: translate(-50%, 42%);
   color: #002E5D;
   background-color:rgba(255,255,255,0.75); border-radius: 5px;
-  padding: 5px;
+  padding: 10px;
 }
 #portfolio-work .block .portfolio-contant ul li a {
   display: block;
@@ -643,7 +643,7 @@ font header .navbar-default .navbar-nav li a:hover {
   -webkit-transition: .5s all;
   -o-transition: .5s all;
   transition: .5s all;
-  padding: 5px;
+  padding: 10px;
 }
 #portfolio-work .block .mix {
   display: none;
