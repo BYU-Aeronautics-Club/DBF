@@ -643,6 +643,7 @@ font header .navbar-default .navbar-nav li a:hover {
   -webkit-transition: .5s all;
   -o-transition: .5s all;
   transition: .5s all;
+  padding: 5px;
 }
 #portfolio-work .block .mix {
   display: none;
